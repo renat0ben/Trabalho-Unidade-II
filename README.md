@@ -66,5 +66,5 @@ Portanto, a complexidade para o melhor caso é O(1).
 c1 * 1 + c2 * 1 = O(1)
 
 Contribuidores:
-Kayc Henderson		
+Kayc Henderson;		
 Renato Bento
