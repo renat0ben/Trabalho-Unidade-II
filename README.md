@@ -12,9 +12,12 @@ Comparação: Para cada elemento na lista, o algoritmo compara o valor procurado
 
 Simplicidade: A Busca Linear é fácil de implementar e não requer que a lista esteja ordenada. No entanto, pode ser ineficiente para listas grandes, pois o tempo de execução é proporcional ao tamanho da lista.
 
-Implementação
-#include <stdio.h>
 
+
+
+Implementação
+
+#include <stdio.h>
 // Função de busca linear
 int buscaLinear(int arr[], int tamanho, int chave) {
     for (int i = 0; i < tamanho; i++) {
@@ -23,14 +26,12 @@ int buscaLinear(int arr[], int tamanho, int chave) {
         }
     }
     return -1; // Retorna -1 se o elemento não for encontrado
-}
-
+    }
 int main() {
     int arr[] = {10, 14, 19, 26, 27, 31, 33, 35, 42, 44};
     int chave = 33;
     int tamanho = sizeof(arr) / sizeof(arr[0]);
     int resultado = buscaLinear(arr, tamanho, chave);
-
     if (resultado == -1) {
         printf("Elemento não encontrado\n");
     } else {
@@ -39,6 +40,9 @@ int main() {
     return 0;
 }
 linear_search-ezgif com-webp-to-gif-converter
+
+
+
 
 Como rodar na minha maquina?
 Primeiro Clone o repositorio na sua maquina:
