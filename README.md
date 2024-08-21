@@ -48,13 +48,16 @@ Para executar você precisa navegar até o diretório onde o arquivo c se encont
 
 gcc main.c produto.c -o caixa_supermercado
 ./caixa_supermercado
+
 Complexidade
 Pior Caso:
-O pior caso ocorre quando o elemento procurado está no final da lista ou não está presente, obrigando o algoritmo a verificar todos os elementos da lista. Portanto, a complexidade para o pior caso é O(n).
+O pior caso ocorre quando o elemento procurado está no final da lista ou não está presente, obrigando o algoritmo a verificar todos os elementos da lista. 
+Portanto, a complexidade para o pior caso é O(n).
 
 c1 * 1 + c2 * 1 + c3 * 1 + ... + c_n * 1 = O(n)
 Melhor Caso:
-O melhor caso ocorre quando o elemento procurado está no início da lista, e o algoritmo encontra o elemento imediatamente. Portanto, a complexidade para o melhor caso é O(1).
+O melhor caso ocorre quando o elemento procurado está no início da lista, e o algoritmo encontra o elemento imediatamente. 
+Portanto, a complexidade para o melhor caso é O(1).
 
 c1 * 1 + c2 * 1 = O(1)
 
